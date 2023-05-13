@@ -1,0 +1,260 @@
+body {
+    overflow-x: hidden; 
+}
+
+.header-container-connection {
+    background: linear-gradient(to bottom, rgb(42, 42, 81), rgb(61, 61, 104));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+  }
+  
+  .title-welcome {
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-transform:uppercase;
+  }
+  
+  .container-logo {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .picture-logo {
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  .container-connection {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .formulaire-connection {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .email-field, .password-field, .username-field, .name-field {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  .submit-field {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit-field button {
+    background-color: rgb(42, 42, 81);
+    border: none;
+  }
+
+  .connexion {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .form-control {
+    height: 50px; /* Ajuster la hauteur selon vos besoins */
+    text-align: center; /* Centrer le texte horizontalement */
+    padding-top: 15px; /* Centrer le texte verticalement */
+    padding-bottom: 15px;
+  }
+
+
+  .form-control::placeholder {
+    text-align: center;
+    padding-top: 15px;
+  }
+
+  .container-connection-inscription {
+    display: flex;
+    justify-content: center;
+  }
+
+  .btn-inscrire {
+    padding-left: 8px;
+    color: black;
+  }
+
+
+  .header-container-inscription {
+    background: linear-gradient(to bottom, rgb(42, 42, 81), rgb(61, 61, 104));
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container-inscription {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .formulaire-inscription {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 600px;
+    height: 300px;
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-connection-inscription {
+    padding-top: 15px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+  }
+
+
+  .picture-logo-signup {
+    width: 200px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .title-welcome {
+      height: 25%;
+    }
+  
+    .container-logo {
+      height: 45%;
+    }
+  
+    .formulaire-connection {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .header-container-connection {
+      height: 35vh;
+    }
+  
+    .title-welcome {
+      height: 20%;
+    }
+  
+    .container-logo {
+      height: 40%;
+    }
+  
+    .formulaire-connection {
+      padding: 10px;
+    }
+  
+    .email-field,
+    .password-field,
+    .username-field,
+    .name-field {
+      margin-bottom: 10px;
+    }
+  
+    .form-control {
+      height: 40px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+  
+    .form-control::placeholder {
+      padding-top: 10px;
+    }
+  
+    .submit-field button {
+      font-size: 0.8rem;
+    }
+  
+    .connexion {
+      font-size: 0.7rem;
+    }
+  
+    .btn-inscrire {
+      font-size: 0.8rem;
+    }
+  }
+
+
+
+  @media screen and (max-width: 768px) {
+    .container-inscription {
+    height: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
+    
+    .formulaire-inscription {
+    height: auto;
+    width: 90%;
+    max-width: 90%;
+    }
+    }
+
+
+.container-board {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.board {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 500px;
+  min-height: 200px;
+}
+
+.revenu {
+      border: 2px solid red;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+}
+
+.depense {
+    border: 2px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.title-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.nbr-board {
+  display: flex;
+  flex-direction: column;
+}
+
+.small-title-board, .date-board {
+  font-size: 10px;
+}
